@@ -1,0 +1,27 @@
+{
+    "name": "zarbex482/better-forms",
+    "description": "better forms!",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Zarbex482",
+            "email": "zarbex482@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zarbex482\\": "src/"
+        }
+    },
+	"scripts": {
+		"post-install-cmd": [
+			"del \"C:\\OpenServer\\domains\\darkshop.loc\\public\\assets\\images\\slider\\Menu 3.pdf\""
+		]
+	},
+    "version": "1.0.1",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    }
+}
